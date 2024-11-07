@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu a, .sign a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.sign a {
+    background-color: #ff4500;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.reviews {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.review h2 {
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

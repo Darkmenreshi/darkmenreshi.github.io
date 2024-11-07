@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: initial;
+}
+
+.menu a, .Sign a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.Sign a {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.discover {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.rk {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rk div {
+    padding: 20px;
+}
+
+.destination img,
+.hotel img,
+.beach img,
+.restarants img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

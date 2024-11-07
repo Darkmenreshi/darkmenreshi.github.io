@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: initial;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.sign a {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url(https://giinfotech.ae/wp-content/uploads/2020/07/SmallTravelTourismbusiness.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+

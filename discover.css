@@ -1,0 +1,65 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: initial;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.sign a {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.rk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 500px;
+}
+.discover{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.explore{
+    padding-left: 25px;
+}
+.destination{
+    padding-left: 200px;
+}
+.hotel{
+    padding-left: 200px;
+}
+.beach{
+    padding-left: 200px;
+}
+.restarants{
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
